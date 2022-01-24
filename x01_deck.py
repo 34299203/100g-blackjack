@@ -9,15 +9,22 @@ as well as a suit
 def createDeck():
   ranks = ['2','3','4','5','6','7','8','9','T','J','Q','K','A']
   suits = ['C','D','H','S']
-  deck = []
-  
-  return deck
-  
+
+  for c in ranks:
+    for l in suits:
+      x = (c + l)
+      deck = [x]
+      print(deck)
+      return deck
+
+
+
   '''
   use the two lists to create a new list "deck" 
   return the deck list to your calling function
   '''
-
+createDeck()
+'''
 def main():
   deck = createDeck()
   assert "JH" in deck 
@@ -27,3 +34,4 @@ def main():
   
 if __name__ == "__main__":
   main()
+'''
