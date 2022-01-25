@@ -12,8 +12,7 @@ def createDeck():
 
   for c in ranks:
     for l in suits:
-      x = (c + l)
-      deck = [x]
+      deck = [c + l]
       print(deck)
       return deck
 
