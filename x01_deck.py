@@ -15,7 +15,7 @@ def createDeck():
       deck = [c + l]
       a = a + deck
   return a
-#createDeck()
+createDeck()
 
 
 
